@@ -1059,6 +1059,9 @@ footer {
   .edu-bento,
   .proj-bento,
   .certs-bento,
+  .vol-bento {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .c-name,
   .c-bio,
   .c-proj.p1,
@@ -1085,12 +1088,43 @@ footer {
   .edu-bento,
   .proj-bento,
   .certs-bento,
+  .vol-bento {
+    grid-template-columns: 1fr;
+  }
   .c-name,
   .c-bio,
   .c-proj.p1,
   .c-contact-main,
   .c-skills {
     grid-column: span 1;
+  }
+  .c-bio {
+    grid-row: auto;
+  }
+  .c-name-head {
+    font-size: clamp(2.6rem, 15vw, 4rem);
+  }
+  .c-name {
+    padding: 2rem 1.5rem 1.75rem;
+  }
+  .c-name-foot {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  .c-name-vertical {
+    align-items: flex-start;
+  }
+  .contact-info {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .small-contact-links {
+    flex-wrap: wrap;
+  }
+  .c-contact-main {
+    padding: 2.25rem 1.75rem;
   }
 }
 
