@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Miranda Urban</title>
     <link rel="stylesheet" href="styles.css" />
-
   </head>
   <body>
     <nav>
@@ -98,7 +97,7 @@
             <em>useful, thoughtful, and human-centered.</em>
           </div>
           <p class="c-bio-body">
-            I’m currently in my sixth semester of Computer Engineering at Tec de
+            I’m currently in my seventh semester of Computer Engineering at Tec de
             Monterrey. My work has focused on educational initiatives, interface
             design, and collaborative software projects with an emphasis on
             usability and human-centered systems.
@@ -106,12 +105,12 @@
         </div>
 
         <div class="c-stat red">
-          <div class="c-stat-num">6th</div>
+          <div class="c-stat-num">7th</div>
           <div class="c-stat-label">semester</div>
         </div>
 
         <div class="c-stat gr">
-          <div class="c-stat-num">2</div>
+          <div class="c-stat-num">1</div>
           <div class="c-stat-label">Active Projects</div>
         </div>
 
@@ -248,40 +247,6 @@
             </div>
           </div>
         </div>
-
-        <div class="card c-exp ex3">
-          <div class="exp-l">
-            <div>
-              <div class="exp-co">Patrones hermosos</div>
-              <div class="exp-meta">Jul 2025<br />Mexico City</div>
-            </div>
-            <span class="exp-kind">Volunteer</span>
-          </div>
-          <div class="exp-r">
-            <div class="exp-role">Programming Workshop Instructor</div>
-            <ul class="exp-bul">
-              <li>
-                Taught introductory programming and web development concepts to
-                younger students through guided workshops and team activities.
-              </li>
-              <li>
-                Helped students build their first HTML and CSS webpages while
-                introducing core digital and computational concepts.
-              </li>
-              <li>
-                Collaborated with other volunteers to organize class activities,
-                explain technical concepts, and support robotics exercises using
-                LEGO-based educational kits.
-              </li>
-            </ul>
-            <div class="exp-tags">
-              <span class="exp-t">Education</span
-              ><span class="exp-t">Web Development</span>
-              <span class="exp-t">STEM Outreach</span
-              ><span class="exp-t">Communication</span>
-            </div>
-          </div>
-        </div>
       </div>
 
       <!-- ── PROJECTS ── -->
@@ -308,9 +273,9 @@
           <div class="proj-big-num">01</div>
         </div> -->
 
-        <div class="card c-proj p2">
+        <div class="card c-proj p2" data-project="p2">
           <a href="https://github.com/dittravel" class="proj-arrow">↗</a>
-          <div class="proj-type">Academic Collaboration · Ongoing</div>
+          <div class="proj-type">Academic Collaboration · 2026</div>
           <div class="proj-name">Dittravel</div>
           <p class="proj-desc">
             Collaborative travel management platform focused on translating
@@ -325,14 +290,14 @@
           <div class="proj-big-num">01</div>
         </div>
 
-        <div class="card c-proj p3">
+        <div class="card c-proj p3" data-project="p3">
           <a
             href="https://github.com/mirandaurban/personalBlog"
             class="proj-arrow"
             >↗</a
           >
           <div class="proj-type">Personal Project · Ongoing</div>
-          <div class="proj-name">Reading Archive</div>
+          <div class="proj-name">Digital Garden</div>
           <p class="proj-desc">
             Personal platform for organizing and publishing reading notes
             through a lightweight static workflow using Astro, Markdown, and
@@ -346,7 +311,7 @@
           <div class="proj-big-num">02</div>
         </div>
 
-        <div class="card c-proj p4">
+        <div class="card c-proj p4" data-project="p4">
           <a href="https://github.com/lorechewtat/PCC" class="proj-arrow">↗</a>
           <div class="proj-type">Academic Collaboration · 2025</div>
           <div class="proj-name">Emergency Response Interface</div>
@@ -364,7 +329,7 @@
           <div class="proj-big-num">03</div>
         </div>
 
-        <div class="card c-proj p5">
+        <div class="card c-proj p5" data-project="p5">
           <a
             href="https://github.com/mirandaurban/Videojuego"
             class="proj-arrow"
@@ -386,25 +351,56 @@
         </div>
       </div>
 
+      <!-- ── Volunteering ── -->
+      <div class="sec-label" id="vol">
+        <span class="sec-num">05</span>
+        <h2 class="sec-title">Volunteering</h2>
+        <div class="sec-line"></div>
+      </div>
+
+      <div class="vol-bento">
+        <div class="c-vol" data-project="v1">
+          <div class="vol-iss">Patrones Hermosos 2026</div>
+          <div class="vol-name">Programming Workshop Instructor</div>
+          <div class="vol-date">June 2026</div>
+          <a href="#" class="vol-link">More details ↗</a>
+        </div>
+
+        <div class="c-vol" data-project="v2">
+          <div class="vol-iss">Patrones Hermosos 2025</div>
+          <div class="vol-name">Programming Workshop Instructor</div>
+          <div class="vol-date">July 2025</div>
+          <a href="#" class="vol-link">More details ↗</a>
+        </div>
+
+        <div class="c-vol" data-project="v3">
+          <div class="vol-iss">Reading Enrichment Program</div>
+          <div class="vol-name">Reading Workshop Instructor</div>
+          <div class="vol-date">Feb - Aug 2024</div>
+          <a href="#" class="vol-link">More details ↗</a>
+        </div>
+      </div>
+
       <!-- ── CERTIFICATIONS ── -->
       <div class="sec-label" id="certs">
-        <span class="sec-num">05</span>
+        <span class="sec-num">06</span>
         <h2 class="sec-title">Certifications</h2>
         <div class="sec-line"></div>
       </div>
 
       <div class="certs-bento">
-        <div class="c-cert">
+        <div class="c-cert" data-project="c1">
           <div class="cert-iss">VGC International College</div>
           <div class="cert-name">C1 Advanced English Certificate</div>
           <div class="cert-date">January 2025</div>
           <a href="#" class="cert-link">Certificate ↗</a>
         </div>
+
       </div>
 
       <!-- ── CONTACT ── -->
       <div class="sec-label" id="contact">
-        <span class="sec-num">06</span>
+        <span class="sec-num">07</span>
         <h2 class="sec-title">Contact</h2>
         <div class="sec-line"></div>
       </div>
@@ -438,5 +434,8 @@
     </div>
 
     <footer>© 2026 Miranda Urban · Built with HTML, CSS & GitHub Pages</footer>
+
+    <script src="modals.js" defer></script>
+
   </body>
 </html>
